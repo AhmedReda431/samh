@@ -8,6 +8,7 @@
   right: 0;
   width: 100%;
   z-index: 9999;
+
   a {
     color: $navLinkColor;
 
@@ -125,11 +126,13 @@ i {
     line-height: 30px;
   }
 }
+
 .nav-wrapper {
   .navbar-links li a:hover {
     color: $activeLink;
     text-decoration: none !important;
   }
+
   .navbar-links a {
     border-bottom: 2px solid transparent !important;
     text-decoration: none !important;
@@ -140,6 +143,7 @@ i {
     color: $activeLink;
     // border-bottom: 2px solid $activeLink !important;
     position: relative;
+
     &::after {
       position: absolute;
       content: "";
@@ -152,10 +156,36 @@ i {
     }
   }
 }
-.logo{
-    a{
-        &::after{
-            background-color: transparent !important;
-        }
+
+.logo {
+  a {
+    &::after {
+      background-color: transparent !important;
     }
+  }
+}
+
+
+.lang {
+  .navbar-links li.navbar-dropdown .dropdown {
+    padding: 20px;
+    width: 200px;
+  }
+
+  .current-lang {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    line-height: 20px;
+  }
+
+  .change-lang {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: flex-end !important;
+  }
+
+  a.nuxt-link-exact-active {
+    border: none !important;
+  }
 }

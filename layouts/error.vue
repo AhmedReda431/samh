@@ -1,5 +1,5 @@
 <template>
-  <v-app dark>
+  <section class="holder">
     <section class="page_404">
       <div class="container">
         <div class="row">
@@ -25,7 +25,7 @@
         </div>
       </div>
     </section>
-  </v-app>
+  </section>
 </template>
 
 <script>

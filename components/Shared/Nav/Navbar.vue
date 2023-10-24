@@ -115,15 +115,7 @@ export default {
         // this.$cookiz.set('mobileView', 'deskTop')
       }
     },
-    switchLang() {
-      if (this.lang === "en") {
-        this.lang = "ar";
-      } else {
-        this.lang = "en";
-      }
-      localStorage.setItem("lang", this.lang);
-      window.location.reload();
-    },
+  
   },
   mounted() {
     window.addEventListener("resize", () => {

@@ -1,12 +1,13 @@
 <template>
-  <section>
-    <b-container> home page </b-container>
+  <section class="home-page">
+    <BookFormBook />
+    <BlogSimpleBlog />
   </section>
 </template>
 
 <script>
 export default {
-  name: "IndexPage",
+  name: "IndexPage"
   // layout: "main",
 };
 </script>

@@ -95,11 +95,11 @@ export default {
         file: "en.json",
       },
     ],
-    defaultLocale: "en",
+    defaultLocale: "ar",
     langDir: "lang/",
     noPrefixDefaultLocale: true,
     vueI18n: {
-      fallbackLocale: ["en", "ar"],
+      fallbackLocale: ["ar", "en"],
       // messages: {
       //   ar: require("./lang/ar.json"),
       //   en: require("./lang/en.json"),
