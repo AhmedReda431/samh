@@ -1,7 +1,7 @@
 <template>
   <section class="home-page">
     <BookFormBook />
-    <BlogSimpleBlog />
+    <BlogBlogs />
   </section>
 </template>
 

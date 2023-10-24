@@ -1,64 +1,47 @@
 <template>
   <section class="blog-holder">
-    <b-container>
-      <h2 class="pt-3 mb-4">{{ $t('simple blog') }}</h2>
-      <b-row>
-        <b-col lg="3" md="6" v-for="(num , index) in 4" :key="num">
-          <!-- <b-card
-            :title="`${$t('blog')} ${index + 1}`"
-            img-src="https://picsum.photos/600/300/?image=25"
-            img-alt="Image"
-            img-top
-            tag="article"
-            class="mb-2"
-          >
-            <b-card-text>{{ $t('desc') }} {{ $t('blog') }} {{ index + 1 }}</b-card-text>
+    
+    <b-card class="p-0 m-0">
+      <figure class="snip1208">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample66.jpg" alt="sample66" />
+        <div class="date">
+          <span class="day">28</span>
+          <span class="month">Oct</span>
+        </div>
+        <i class="fa-brands fa-blogger-b"></i>
+        <figcaption>
+          <h5 class="font-weight-bold" v-if="$i18n.locale == 'ar'">
+            <span>{{ $t('title') }}</span>
+            <span>{{ $t('blog') }}</span>
+            <span>{{ index + 1 }}</span>
+          </h5>
+          <h5 class="font-weight-bold" v-else>
+            <span>{{ $t('blog') }}</span>
+            <span>{{ index + 1 }}</span>
+            <span>{{ $t('title') }}</span>
+          </h5>
+          <p>{{ $t('desc') }}</p>
+          <button>
             <nuxt-link
               :to="localePath(`/blogs/${index + 1}`)"
               variant="primary"
             >{{ $t('read more') }}</nuxt-link>
-          </b-card>-->
-          <b-card class="p-0 m-0">
-            <figure class="snip1208">
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample66.jpg"
-                alt="sample66"
-              />
-              <div class="date">
-                <span class="day">28</span>
-                <span class="month">Oct</span>
-              </div>
-              <i class="fa-brands fa-blogger-b"></i>
-              <figcaption>
-                <h5 class="font-weight-bold" v-if="$i18n.locale == 'ar'">
-                  <span>{{ $t('title') }}</span>
-                  <span>{{ $t('blog') }}</span>
-                  <span>{{ index + 1 }}</span>
-                </h5>
-                <h5 class="font-weight-bold" v-else>
-                  <span>{{ $t('blog') }}</span>
-                  <span>{{ index + 1 }}</span>
-                  <span>{{ $t('title') }}</span>
-                </h5>
-                <p>{{ $t('desc') }}</p>
-                <button>
-                  <nuxt-link
-                    :to="localePath(`/blogs/${index + 1}`)"
-                    variant="primary"
-                  >{{ $t('read more') }}</nuxt-link>
-                </button>
-              </figcaption>
-              <a href="#"></a>
-            </figure>
-          </b-card>
-        </b-col>
-      </b-row>
-    </b-container>
+          </button>
+        </figcaption>
+        <a href="#"></a>
+      </figure>
+    </b-card>
   </section>
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    index: {
+      type: Number
+    }
+  }
+};
 </script>
 
 <style lang="scss" scoped>

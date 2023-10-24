@@ -1,5 +1,5 @@
 <template>
-  <section class="book-foerm">
+  <section class="book-form">
     <b-container>
       <h2 class="pt-3 mb-0">{{ $t('Book Form') }}</h2>
       <form class="form-holder">
@@ -57,6 +57,7 @@
             </div>
           </b-col>
         </b-row>
+        <b-button variant="primary" @click.prevent="submitForm">{{ $t('Submit') }}</b-button>
       </form>
     </b-container>
   </section>
@@ -76,6 +77,11 @@ export default {
       }
     };
   },
+  methods:{
+    submitForm(){
+      console.log(this.reservation);
+    }
+  }
   // mounted() {
   //   if (this.$i18n.locale == "ar") {
   //     let labelTop = document.querySelector('output');;

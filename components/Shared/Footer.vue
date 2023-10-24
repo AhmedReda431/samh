@@ -1,14 +1,14 @@
 <template>
   <div class="footer-holder">
     <footer>
-      <b-conbtainer>
+      <b-container>
         <div class="d-flex justify-content-center laign-items-center">
           <p>
             <span class="mx-1">&copy;</span>
             {{ new Date().getFullYear() }}
           </p>
         </div>
-      </b-conbtainer>
+      </b-container>
     </footer>
   </div>
 </template>
