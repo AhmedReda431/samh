@@ -1,0 +1,23 @@
+@import "mixins/mixins.scss";
+@import "classes.scss";
+@import "forceStyle.scss";
+@import "global.scss";
+@import "media.scss";
+
+// :root {
+//   --background-color-primary: #e9e6e0;
+//   --background-color-secondary: #e9e6e0;
+//   --accent-color: #cacaca;
+//   --text-primary-color: #222;
+//   --element-size: 4rem;
+// }
+
+// /* Define styles for the root window with dark - mode preference */
+// :root.dark-theme {
+//   --background-color-primary: #11332D;
+//   // --background-color-secondary: #2d2d30;
+//   --background-color-secondary: #0e2b26;
+//   --accent-color: #3f3f3f;
+//   --text-primary-color: #ddd;
+// }
+

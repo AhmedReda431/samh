@@ -1,0 +1,35 @@
+.homePage {
+  .hooper-list {
+    overflow: visible !important; // in home page only
+  }
+}
+.hooper{
+  height: auto !important;
+}
+.aboutPage {
+  .intro-holder {
+    .carousel-image {
+      img {
+        width: 100% !important;
+        height: 500px !important;
+        object-fit: cover;
+      }
+    }
+  }
+}
+// &:nth-child(odd) {
+//   .img-holder {
+//     order: 1;
+//   }
+//   .text-holder {
+//     order: 2;
+//   }
+// }
+// &:nth-child(even) {
+//   .img-holder {
+//     order: 2;
+//   }
+//   .text-holder {
+//     order: 1;
+//   }
+// }

@@ -1,0 +1,36 @@
+/* Font Icons */
+/* Font Icons */
+// @font-face {
+//     font-family: "roaya";
+//     src: url("@/fonts/BauPro.eot"),
+//         url("@/fonts/BauPro.woff2") format("woff2"),
+//         url("/fonts/BauPro.woff") format("woff"),
+//         url("@/fonts/cera-gr-black.svg") format("svg");
+//     font-weight: normal;
+//     font-style: normal;
+//     font-display: swap;
+// }
+@font-face {
+    font-family: "Founders";
+    src: url("@/fonts/Brown-Regular.woff"),
+        url("@/fonts/Brown-RegularAlt.woff2") format("woff2"),
+        url("@/fonts/Brown-Bold.woff") format("woff"),
+        url("@/fonts/Brown-Bold.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body {
+    font: normal 300 #{$font-size}/1.86 $font-family;
+    // color: $body-text;
+    // background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    -ms-overflow-x: hidden;
+    overflow-y: auto;
+    -ms-overflow-y: auto;
+  }

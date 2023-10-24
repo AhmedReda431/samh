@@ -1,0 +1,28 @@
+@media (max-width: 992px) {
+  //   .nav-mobile-holder{
+  //     display: none !important;
+  //   }
+  .more-btn {
+    width: 100% !important;
+  }
+  // .modal.show .modal-dialog {
+  //   top: 8%;
+  // }
+  .backToTop {
+    right: 25px !important;
+    bottom: 110px !important;
+  }
+  img.w-100{
+    min-height: 300px;
+    height: auto;
+    object-fit: cover;
+  }
+  img.icon-image{
+    width: 111px;
+  }
+}
+// @media(max-width:1500px){
+//   .modal.show .modal-dialog {
+//     top: 8%;
+//   }
+// }
