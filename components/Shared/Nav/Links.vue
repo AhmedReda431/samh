@@ -2,7 +2,7 @@
 
     <ul class="nav-items">
         <li data-aos="fade-right" data-aos-delay="100">
-            <nuxt-link :to="localePath('/')">Home</nuxt-link>
+            <nuxt-link :to="localePath('/')" class="text-decoration-none">Home</nuxt-link>
         </li>
     </ul>
 

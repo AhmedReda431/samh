@@ -1,6 +1,6 @@
 <template>
   <div class="nav-wrapper">
-    <div class="container-fluid">
+    <div class="container">
       <div class="nav-menu">
         <div class="row justify-content-between align-items-center">
           <div class="col-6">
@@ -12,7 +12,7 @@
                 'float-right': $i18n.locale == 'ar',
               }"
             >
-              <nuxt-link :to="localePath('/')" data-aos="zoom-in" data-aos-delay="300">
+              <nuxt-link :to="localePath('/')" class="text-decoration-none" >
                 <img src="~/assets/images/logo.png" alt="logo" height="45" width="230" />
               </nuxt-link>
             </div>
@@ -35,17 +35,17 @@
           >
             <div class="col-md-3 col-sm-12">
               <div class="logo">
-                <nuxt-link :to="localePath('/')" data-aos="zoom-in" data-aos-delay="300">
-                  <img src="@/assets/images/logo.png" alt="logo" height="45" width="230" />
+                <nuxt-link :to="localePath('/')" class="text-decoration-none" >
+                  <img src="~/assets/images/logo.png" alt="logo" height="45" width="230" />
                 </nuxt-link>
               </div>
             </div>
             <div class="col-md-6 col-sm-12">
-              <ul class="nav-items">
+              <!-- <ul class="nav-items">
                 <li data-aos="fade-right" data-aos-delay="200">
-                  <nuxt-link :to="localePath('/')">Home</nuxt-link>
+                  <nuxt-link :to="localePath('/')" class="text-decoration-none">Home</nuxt-link>
                 </li>
-              </ul>
+              </ul> -->
             </div>
             <div
               class="col-md-3 col-sm-12 d-flex align-items-center justify-content-around"
@@ -73,11 +73,11 @@
       >
         <div class="px-3 py-2">
           <div class="logo">
-            <nuxt-link :to="localePath('/')" data-aos="zoom-in" data-aos-delay="300">
-              <img src="@/assets/images/logo.png" alt="logo" height="45" width="230" />
+            <nuxt-link :to="localePath('/')" class="text-decoration-none">
+              <img src="~/assets/images/logo.png" alt="logo" height="45" width="230" />
             </nuxt-link>
           </div>
-          <SharedNavLinks />
+          <!-- <SharedNavLinks /> -->
         </div>
         <div>
           <!-- <SharedNavLang /> -->
