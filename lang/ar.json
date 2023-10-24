@@ -1,3 +1,23 @@
 {
-  "home page": "الصفحة الرئيسية"
+  "home page": "الصفحة الرئيسية",
+  "From": "من",
+  "To": "إلى",
+  "tripDate": "تاريخ الرحلة",
+  "Ticket Class": "فئة التذكرة",
+  "Trip Type": "نوع الرحلة",
+  "Passengers": "الركاب",
+  "blog": "مقالة",
+  "read more": "اقرأ المزيد",
+  "desc": "لا أحتاج إلى التنازل عن مبادئي، لأنها لا تؤثر أبدًا على ما يحدث لي.",
+  "title": "عنوان",
+  "Please select an option": "يرجى اختيار خيار",
+  "First": "أولى",
+  "Buisness": "رجال الأعمال",
+  "Economy": "اقتصادية",
+  "One Way": "رحلة واحدة",
+  "Round Tripe": "رحلة مستديرة",
+  "number of Passengers": "عدد المسافرين",
+  "noDateSelected": " لم يتم اختيار تاريخ الرحلة",
+  "Book Form": "نموذج الحجز",
+  "simple blog": "مدونة بسيطة"
 }

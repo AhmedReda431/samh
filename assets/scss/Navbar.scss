@@ -14,7 +14,7 @@
 
     &:hover {
       text-decoration: none;
-      border-bottom: 2px solid transparent;
+      // border-bottom: 2px solid transparent;
     }
   }
 }
@@ -100,8 +100,8 @@ i {
   width: 250px;
   background-color: #fff;
   box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.3);
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
+  // border-bottom-left-radius: 3px;
+  // border-bottom-right-radius: 3px;
   z-index: 111;
   transition: 0.4s all;
 }
@@ -112,9 +112,9 @@ i {
   font-weight: 400;
 }
 
-.navbar-dropdown .dropdown a:hover {
-  padding-left: 30px;
-}
+// .navbar-dropdown .dropdown a:hover {
+//   padding-left: 30px;
+// }
 
 .navbar-links li a:hover {
   color: #ff3f34;
@@ -129,31 +129,33 @@ i {
 
 .nav-wrapper {
   .navbar-links li a:hover {
-    color: $activeLink;
+    color: $main-color;
     text-decoration: none !important;
   }
 
   .navbar-links a {
-    border-bottom: 2px solid transparent !important;
+    // border-bottom: 2px solid transparent !important;
     text-decoration: none !important;
   }
 
   a.nuxt-link-exact-active {
     font-weight: bold;
-    color: $activeLink;
-    // border-bottom: 2px solid $activeLink !important;
+    color: $main-color;
+    // border-bottom: 2px solid $main-color !important;
     position: relative;
+    border: none !important;
+    font-weight: bold !important;
 
-    &::after {
-      position: absolute;
-      content: "";
-      width: 65%;
-      left: 50%;
-      bottom: -4px;
-      height: 2px;
-      transform: translateX(-50%);
-      background-color: $activeLink;
-    }
+    // &::after {
+    //   position: absolute;
+    //   content: "";
+    //   width: 65%;
+    //   left: 50%;
+    //   bottom: -4px;
+    //   height: 2px;
+    //   transform: translateX(-50%);
+    //   background-color: $main-color;
+    // }
   }
 }
 
@@ -172,17 +174,13 @@ i {
     width: 200px;
   }
 
-  .current-lang {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    line-height: 20px;
-  }
 
-  .change-lang {
+
+  .change-lang , .current-lang {
     display: flex !important;
     justify-content: center !important;
     align-items: flex-end !important;
+    line-height: 20px;
   }
 
   a.nuxt-link-exact-active {

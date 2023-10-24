@@ -1,3 +1,23 @@
 {
-  "home page": "Home Page"
+  "home page": "Home Page",
+  "From": "From",
+  "To": "To",
+  "tripDate": "trip Date",
+  "Ticket Class": "Ticket Class",
+  "Trip Type": "Trip Type",
+  "Passengers": "Passengers",
+  "blog": "blog",
+  "read more": "Read More",
+  "desc": "I don't need to compromise my principles, because they don't have the slightest bearing on what happens to me anyway.",
+  "title": "Title",
+  "Please select an option": "Please select an option",
+  "First": "First",
+  "Buisness": "Buisness",
+  "Economy": "Economy",
+  "One Way": "One Way",
+  "Round Tripe": "Round Tripe",
+  "number of Passengers": "number of Passengers",
+  "noDateSelected":"No Date Selected For Trip",
+  "Book Form":"Book Form",
+  "simple blog":"Simple Blog"
 }

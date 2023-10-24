@@ -11,6 +11,15 @@ export default {
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
+  router: {
+    scrollBehavior(to, from, savedPosition) {
+      if (savedPosition) {
+        return savedPosition;
+      } else {
+        return { x: 0, y: 0 };
+      }
+    }
+  },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
@@ -21,8 +30,6 @@ export default {
   styleResources: {
     scss: [
       "~/assets/variables.scss",
-      "~/assets/scss/mixins/_mixins.scss",
-      "~/assets/scss/elements/_font.scss",
     ],
   },
 

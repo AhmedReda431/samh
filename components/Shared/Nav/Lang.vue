@@ -15,7 +15,7 @@
                     alt="lang flag"
                   />
                 </span>
-                <span class="mx-2">EN</span>
+                <span class="mx-2 main-color font-weight-bold">EN</span>
               </div>
             </a>
             <a class="d-flex align-items-center" v-else>
@@ -28,7 +28,7 @@
                     alt="lang flag"
                   />
                 </span>
-                <span class="mx-2">AR</span>
+                <span class="mx-2 main-color font-weight-bold">AR</span>
               </div>
             </a>
             <div class="dropdown">

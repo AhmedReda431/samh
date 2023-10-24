@@ -4,7 +4,7 @@
     <transition name="slide-fade">
       <Nuxt class="hold-view" />
     </transition>
-    <footer>footer</footer>
+    <SharedFooter />
   </div>
 </template>
 
