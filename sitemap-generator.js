@@ -14,7 +14,7 @@ routes.map((route) => {
 const sitemapStream = new SitemapStream({
   hostname: process.env.VUE_APP_DOMAIN_NAME
     ? process.env.VUE_APP_DOMAIN_NAME
-    : "https://st.humhum.work/",
+    : "https://github.com/AhmedReda431/samh",
 });
 
 // Check if the public directory exists, if not create it

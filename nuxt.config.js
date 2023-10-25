@@ -2,7 +2,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: "%s - Samh",
-    title: 'Samh',
+    title: "Samh",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -18,7 +18,7 @@ export default {
       } else {
         return { x: 0, y: 0 };
       }
-    }
+    },
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -28,9 +28,7 @@ export default {
     "@fortawesome/fontawesome-free/css/all.css",
   ],
   styleResources: {
-    scss: [
-      "~/assets/variables.scss",
-    ],
+    scss: ["~/assets/variables.scss"],
   },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -61,10 +59,27 @@ export default {
     "@nuxtjs/pwa",
     // https://go.nuxtjs.dev/content
     "@nuxt/content",
-    '@nuxtjs/i18n',
-    'nuxt-simple-sitemap',
-    '@nuxtjs/device'
+    "@nuxtjs/i18n",
+    "nuxt-simple-sitemap",
+    "@nuxtjs/device",
+    "@nuxtjs/sitemap",
   ],
+
+  sitemap: {
+    hostname: "https://github.com/AhmedReda431/samh", // Your website's base URL
+    gzip: true, // Enable gzip compression
+    routes: [
+      "/",
+      "/blogs/:id",
+      "/blogs/_id",
+      // ... other routes
+    ],
+    // For dynamic routes, you might need a function or async function.
+    // routes: async () => {
+    //   const { data } = await axios.get('https://api.example.com/posts')
+    //   return data.map(post => `/posts/${post.id}`)
+    // }
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
