@@ -5,6 +5,8 @@ const { createWriteStream, existsSync, mkdirSync } = require("fs");
 // current routes
 let routes = [
   { url: "/" },
+  { url: "/blogs/:id" },
+  { url: "/blogs/_id" },
 ];
 
 routes.map((route) => {
