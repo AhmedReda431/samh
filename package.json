@@ -6,7 +6,9 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "docs": "vuese gen",
+    "sitemap": "node sitemap-generator.js"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.2.0",
@@ -32,14 +34,17 @@
     "sweetalert2": "^11.4.35",
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
-    "vue-template-compiler": "^2.7.10"
+    "vue-template-compiler": "^2.7.10",
+    "vuese": "^1.4.3"
   },
   "devDependencies": {
     "@nuxt/devtools": "^1.0.0",
     "@nuxtjs/color-mode": "^3.1.4",
+    "@nuxtjs/device": "^3.1.1",
     "@nuxtjs/fontawesome": "^1.1.2",
     "@nuxtjs/style-resources": "^1.2.1",
     "node-sass": "^7.0.1",
+    "nuxt-simple-sitemap": "^3.4.1",
     "sass-loader": "^10.3.0"
   }
 }

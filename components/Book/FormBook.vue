@@ -7,13 +7,13 @@
           <b-col lg="6">
             <div class="form-group">
               <label for="tripDate">{{ $t('From') }}</label>
-              <b-form-input v-model="reservation.from" placeholder="From"></b-form-input>
+              <b-form-input v-model="reservation.from" :placeholder="$t('From')"></b-form-input>
             </div>
           </b-col>
           <b-col lg="6">
             <div class="form-group">
               <label for="reservationTo">{{ $t('To') }}</label>
-              <b-form-input v-model="reservation.to" placeholder="To"></b-form-input>
+              <b-form-input v-model="reservation.to" :placeholder="$t('To')"></b-form-input>
             </div>
           </b-col>
         </b-row>

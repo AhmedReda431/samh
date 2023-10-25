@@ -61,9 +61,9 @@ export default {
     "@nuxtjs/pwa",
     // https://go.nuxtjs.dev/content
     "@nuxt/content",
-
-    '@nuxtjs/i18n'
-
+    '@nuxtjs/i18n',
+    'nuxt-simple-sitemap',
+    '@nuxtjs/device'
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
